@@ -1,5 +1,3 @@
-# HN Buddy Web Extension
-
 Basic tuning of the HN interface:
 
 - Relocates the upvote/downvote links.

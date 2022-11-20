@@ -1,0 +1,15 @@
+.comment-tree .comment .reply u {
+  text-decoration: none;
+}
+
+.comment-tree .comment .reply * {
+  color: #828282;
+}
+
+.comment-tree .votelinks {
+  visibility: hidden;
+}
+
+.hnext-favuser {
+  background: #4f4;
+}

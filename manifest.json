@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "HN Buddy",
+  "description": "Cosmetic fixes in HN look.",
+  "version": "1.0.0",
+  "homepage_url": "https://hn-buddy.github.io",
+  "permissions": ["storage"],
+  "optional_permissions": [],
+
+  "content_scripts": [{
+    "matches": ["https://news.ycombinator.com/*"],
+    "js": ["lib/hn.js"],
+    "css": ["lib/hn.css"],
+    "all_frames": true
+  }],
+
+  "icons": {
+    "16": "res/icon16.png",
+    "32": "res/icon32.png",
+    "48": "res/icon48.png",
+    "64": "res/icon64.png",
+    "128": "res/icon128.png"
+  }
+}
